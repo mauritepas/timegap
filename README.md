@@ -9,6 +9,23 @@
 - 单文件，`timegap.py` 拷走就能用
 - 不联网、不写文件
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install mauritepas-timegap
+```
+
+装完直接用命令名调用：
+
+```bash
+timegap --help
+```
+
+也可以不用安装，直接把 `timegap.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 日志里是 `2026-10-20T10:00:00Z`，接口里是 `1760000000`，监控面板里又是毫秒。
